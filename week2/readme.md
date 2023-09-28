@@ -4,4 +4,4 @@
 
 ## textview.java - xml 없이 화면에 텍스트 출력하기
 
-![이미지](/img/without_xml.png)
+![이미지](/img/withoutxml.png)
