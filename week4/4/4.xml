@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="20dp">
+    <EditText
+        android:id="@+id/edittext_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="이름"
+        android:gravity="center"
+        android:textSize="20sp"/>
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbarSize="20sp"
+        android:gravity="left"
+        android:layout_gravity="left"
+        style="@style/Widget.AppCompat.Spinner.Underlined"/>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="left">
+        <RadioButton
+            android:id="@+id/button_kor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="한국인"
+            android:textSize="20sp"
+            />
+        <RadioButton
+            android:id="@+id/button_for"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="외국인"
+            android:textSize="20sp"
+            />
+    </RadioGroup>
+    <CheckBox
+        android:id="@+id/checkbox_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="하루 30이상 걷습니다."
+        android:textSize="20sp"
+        android:layout_gravity="left"/>
+    <CheckBox
+        android:id="@+id/checkbox_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="하루 6시간 이상 수면을 취합니다."
+        android:textSize="20sp"
+        android:layout_gravity="left"/>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="진료 신청"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/textview_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="신청 내역 표시됨"
+        android:textSize="20sp"/>
+    </LinearLayout>
