@@ -19,6 +19,7 @@
         android:hint="가로 길이(mm)"
         android:textSize="20sp"
         android:paddingTop="20dp"
+        android:gravity="center"
         />
     <EditText
         android:id="@+id/edittext_h"
@@ -26,6 +27,7 @@
         android:layout_height="wrap_content"
         android:hint="세로 길이(mm)"
         android:textSize="20sp"
+        android:gravity="center"
         />
     <RadioGroup
         android:layout_width="wrap_content"
