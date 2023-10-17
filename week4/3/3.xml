@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="주문내역 작성"
+        android:textSize="30sp"
+        android:paddingTop="10dp"
+        />
+    <EditText
+        android:id="@+id/edittext_w"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="가로 길이(mm)"
+        android:textSize="20sp"
+        android:paddingTop="20dp"
+        />
+    <EditText
+        android:id="@+id/edittext_h"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="세로 길이(mm)"
+        android:textSize="20sp"
+        />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/radiobutton_w"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="화이트"
+            android:textSize="20sp"
+            />
+        <RadioButton
+            android:id="@+id/radiobutton_br"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="브라운"
+            android:textSize="20sp"
+            />
+        <RadioButton
+            android:id="@+id/radiobutton_bk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="블랙"
+            android:textSize="20sp"
+            />
+    </RadioGroup>
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="설치 공구 필요 (+2000)"
+        android:textSize="20dp"
+        android:padding="20dp"/>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="주문 내역 확인"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_gravity="left"/>
+</LinearLayout>
